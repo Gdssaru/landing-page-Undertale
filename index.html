@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undertale</title>
+  <style>
+    body {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header, footer {
+      background-color: #111;
+      padding: 20px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 30px 20px;
+    }
+    .galeria {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .galeria img {
+      width: 200px;
+      border: 2px solid #fff;
+      border-radius: 10px;
+    }
+    img.destaque {
+      width: 80%;
+      max-width: 500px;
+      border: 3px solid #fff;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "★ ";
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>UNDERTALE</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="personagem.html">Personagem</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+  </header>
+
+  <main>
+    <img src="imagem0.png" alt="Imagem do jogo Undertale" class="destaque">
+
+    <p>Undertale é um RPG independente onde você não precisa matar ninguém. Uma aventura única cheia de escolhas, humor e emoção.</p>
+
+    <h3>5 motivos para jogar:</h3>
+    <ul>
+      <li>História envolvente e emocionante</li>
+      <li>Personagens memoráveis</li>
+      <li>Sistema de combate criativo</li>
+      <li>Trilha sonora marcante</li>
+      <li>Finalizações diferentes por suas escolhas</li>
+    </ul>
+
+    <div class="galeria">
+      <img src="imagem1.webp" alt="Arte de Undertale">
+      <img src="imagem2.png" alt="Print do jogo">
+      <img src="imagem3.webp" alt="Fanart de Undertale">
+    </div>
+  </main>
+
+  <footer>
+    Criado por Gustavo da Silva Saru — <a href="https://undertale.com/" target="_blank" style="color:white;">Site Oficial</a>
+  </footer>
+
+</body>
+</html>
